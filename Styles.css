@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.task-list, .task-form {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 45%;
+}
+
+.task-list h2, .task-form h2 {
+    margin-top: 0;
+}
+
+.task-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task {
+    margin-bottom: 1rem;
+}
+
+.task-name {
+    font-weight: bold;
+}
+
+.task-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.task-form input[type="text"],
+.task-form input[type="date"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.task-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Management Tool</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <header>
+        <h1>Project Management Tool</h1>
+    </header>
+    <main>
+        <!-- Task list -->
+        <section class="task-list">
+            <h2>Tasks</h2>
+            <ul>
+                <li class="task">
+                    <span class="task-name">Task 1</span>
+                    <span class="deadline">Deadline: 2024-04-10</span>
+                    <span class="status">Status: In Progress</span>
+                </li>
+                <!-- More tasks here -->
+            </ul>
+        </section>
+        <!-- Task form -->
+        <section class="task-form">
+            <h2>Add Task</h2>
+            <form>
+                <label for="task-name">Task Name:</label>
+                <input type="text" id="task-name" name="task-name" required>
+                <label for="deadline">Deadline:</label>
+                <input type="date" id="deadline" name="deadline">
+                <button type="submit">Add Task</button>
+            </form>
+        </section>
+    </main>
+    <script src="Google sheet.js"></script>
+</body>
+</html>
